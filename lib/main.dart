@@ -11,7 +11,7 @@ class QuoteList extends StatefulWidget {
   _QuoteListState createState() => _QuoteListState();
 }
 
-// 깃 푸쉬
+// 깃 푸쉬가 안되네
 class _QuoteListState extends State<QuoteList> {
   List<Quote> quotes = [
     Quote(
