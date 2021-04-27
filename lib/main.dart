@@ -4,7 +4,7 @@ import 'package:ninja_flutter_tutorial/pages/home.dart';
 import 'package:ninja_flutter_tutorial/pages/loading.dart';
 
 void main() => runApp(MaterialApp(
-      initialRoute: '/home',
+      initialRoute: '/',
       routes: {
         '/': (context) => Loading(),
         '/home': (context) => Home(),
