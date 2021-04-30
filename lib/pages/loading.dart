@@ -8,19 +8,17 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-  void getData() async {
+  void getTime() async {
     Response response =
-        await get('https://jsonplaceholder.typicode.com/todos/1');
-    Map data = jsonDecode(response.body);
-    print(data);
-    print(data['title']);
+        await get('https://worldtimeapi.org/api/timezone/Asia/Seoul');
+    print(response.body);
   }
 
   @override
   void initState() {
     super.initState();
     print('initState function ran');
-    getData();
+    getTime();
   }
 
   @override
