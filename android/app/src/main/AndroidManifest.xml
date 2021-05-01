@@ -2,7 +2,8 @@
     package="com.example.ninja_flutter_tutorial">
    <application
         android:label="ninja_flutter_tutorial"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
